@@ -10,18 +10,17 @@
     </head>
     <body>
         <h1>Bits of Good Mid-Semester Project</h1>
-        <script type="text/javascript" src="script.js"></script>
         <div class="Main-Container">
             <div class="Right-Page-Container">
                 <div class="Pokemon-Container">
-                    <img src="images/ditto.png" alt="ditto" id="ditto-image">
+                    <img src="images/ditto.png" alt="pokemon" id="ditto-image">
                     <div class="Pokemon-Name-Container">
-                        <p class="Body-Text">ditto</p>
+                        <p class="Body-Text" id="pokemon-name">ditto</p>
                     </div> 
                 </div>
                 <div class="Type-Container">
                     <p id="type-text">Types:</p>
-                    <div class="Type-Box">
+                    <div class="Type-Box" id="type-box">
                         <p class="Type-Box-Text">normal</p>
                     </div>
                 </div>
@@ -38,19 +37,19 @@
             <div class="Left-Page-Container">
                 <div class="Info-Container">
                     <p id="info-text">Info</p>
-                    <div class="Info-Box">
-                        <p class="Body-Text">Height: 0.3 m</p>
+                    <div class="Info-Box" id="info-box">
+                        <!-- <p class="Body-Text">Height: 0.3 m</p> -->
                     </div>
 
                     <div class="Info-Button-Container">
                         <button class="Arrow-Button Info-Button" id="info-button">Info</button>
-                        <button class="Arrow-Button Info-Button">Moves</button>
+                        <button class="Arrow-Button Info-Button" id="moves-button">Moves</button>
                       </div>
                 </div>
             </div>
         </div>
         
-        
+        <script type="text/javascript" src="script.js"></script>
         
     </body>
 </html>
