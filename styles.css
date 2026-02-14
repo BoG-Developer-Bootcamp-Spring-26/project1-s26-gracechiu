@@ -1,0 +1,200 @@
+body {
+    font-family: Inter;
+}
+
+h1 {
+    /* font-family: Inter; */
+    color: black;
+    text-align: center;
+    /* width: 1083px; */
+    height: 77px;
+    top: 46px;
+    left: 179px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-style: bold;
+}
+
+.Main-Container {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#ditto-image {
+    width: 463px;
+    height: 463px;
+    top: 165px;
+    left: 129px;
+    border: black 4px solid;
+}
+
+.Right-Page-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    width: 463px;
+}
+
+.Pokemon-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 463px;
+}
+
+.Pokemon-Name-Container {
+    width: 463px;
+    height: 67px;
+    top: 659px;
+    left: 129px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Body-Text {
+    /* font-family: Inter; */
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#type-text {
+    width: 79px;
+    height: 29px;
+    top: 768px;
+    left: 129px;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.Type-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-self: flex-start;
+}
+
+.Type-Box {
+    width: 117px;
+    height: 41px;
+    top: 815px;
+    left: 129px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #A8A77A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Type-Box-Text {
+    font-weight: 400;
+    font-style: regular;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.Arrow-Container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: auto;
+}
+
+.Arrow-Button {
+    width: 173px;
+    height: 69px;
+    top: 898px;
+    left: 166px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    border: none;
+}
+
+.Arrow-Button img {
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+    border: none;
+}
+
+#right-arrow .left-arrow-image {
+    transform: rotate(180deg);
+}
+
+
+#info-text {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.Left-Page-Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Info-Container {
+    /* display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-self: flex-start; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 463px;
+    flex: 1;
+}
+
+.Info-Box {
+    width: 486px;
+    height: 598px;
+    top: 233px;
+    left: 838px;
+    background-color: #E8E8E8;
+
+}
+
+.Info-Button-Container {
+    display: flex;
+    gap: 25px;            /* same spacing as arrows */
+    margin-top: auto;
+}
+
+.Info-Button {
+    /* width: 173px;         reuse Arrow-Button sizing */
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: regular;
+}
+
+#info-button {
+    background-color: #7CFF79;
+}
+
